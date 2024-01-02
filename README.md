@@ -9,9 +9,10 @@ It will then check for a backup xml or open the default one ("timetable.xml") an
 that will handle the clients.
 
 Example usage:
+```bash
 ./server 5 - the server will create a threadpool of size 5
 ./client IP PORT - the client will connect to the specified IP and PORT, the PORT is hardcoded as 2000
-
+```
 ## Installation
 
 Clone the repository
